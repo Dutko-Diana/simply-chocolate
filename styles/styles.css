@@ -1,0 +1,50 @@
+body {
+    background-color: #fafafa;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: #111;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0%;
+}
+
+img {
+    display: block;
+}
+
+h1,h2,h3,p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    display: block;
+    margin: 0;
+}
+
+.header {}
+
+.logo {}
+
+.logo-part {}
+
+.nav {}
+
+.nav-list {}
+
+.nav-list-item {}
+
+.nav-link {}
+
+.socials {}
+
+.socials-item {}
+
+.socials-icon {}
