@@ -19,57 +19,82 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/styles.css" />
-    />
   </head>
   <body>
     <header class="header">
-      <a href="./index.html" class="logo"
-        ><span class="logo-part">Simply</span> Chocolate<img
-          src="./images/header/logo.png"
-          alt="logo"
-      /></a>
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-list-item">
-            <a class="nav-link" href="./index.html">Home</a>
-          </li>
-          <li class="nav-list-item">
-            <a class="nav-link" href="#process">How it&#8217;s made?</a>
-          </li>
-          <li class="nav-list-item">
-            <a class="nav-link" href="#reviews">Chocolate is loved</a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="socials">
-        <li class="socials-item">
-          <a class="socials-icon" href="https://www.facebook.com/"
-            >here will be the icon</a
-          >
-        </li>
-        <li class="socials-item">
-          <a class="socials-icon" href="https://www.instagram.com/"
-            >here will be the icon</a
-          >
-        </li>
-        <li class="socials-item">
-          <a class="socials-icon" href="https://twitter.com/?lang=uk"
-            >here will be the icon</a
-          >
-        </li>
-      </ul>
+      <div class="container header-wrapper">
+        <a href="./index.html" class="logo"
+          ><span class="logo-part">Simply</span> Chocolate
+          <svg class="logo-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <div class="nav-wrapper">
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-list-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-list-item">
+                <a class="nav-link" href="#process">How it&#8217;s made?</a>
+              </li>
+              <li class="nav-list-item">
+                <a class="nav-link" href="#reviews">Chocolate is loved</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="socials">
+            <li class="socials-item">
+              <a
+                class="socials-link"
+                href="https://www.facebook.com/"
+                target="_blank"
+                ><svg width="24" height="24" class="socials-icon">
+                  <use href="./images/icons.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li class="socials-item">
+              <a
+                class="socials-link"
+                href="https://www.instagram.com/"
+                target="_blank"
+                ><svg width="24" height="24" class="socials-icon">
+                  <use href="./images/icons.svg#icon-instagram"></use></svg
+              ></a>
+            </li>
+            <li class="socials-item">
+              <a
+                class="socials-link"
+                href="https://twitter.com/?lang=uk"
+                target="_blank"
+                ><svg width="24" height="24" class="socials-icon">
+                  <use href="./images/icons.svg#icon-twitter"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
-      <section>
-        <h1>
-          Treat yourself or a loved one to our finest ingredients for a moment
-          of pure delight!
-        </h1>
-        <ul>
-          <li><button type="button">Buy now</button></li>
-          <li><a href="">How it&#8217;s made </a></li>
-        </ul>
-        <a href="">scroll down</a>
+      <section class="hero">
+        <div class="container hero-container">
+          <h1 class="hero-title">
+            Treat yourself or a loved one to our finest ingredients for a moment
+            of pure delight!
+          </h1>
+          <div class="hero-wrapper">
+            <button type="button" class="hero-buy-button">Buy now</button>
+            <a href="#process" class="hero-link">How it&#8217;s made</a>
+            <a href="#products" class="hero-scroll-link"
+              >scroll down
+              <div class="icon-wrapper">
+                <svg width="22" height="22" class="hero-icon">
+                  <use href="./images/icons.svg#icon-scroll"></use>
+                </svg>
+              </div>
+            </a>
+          </div>
+        </div>
       </section>
       <section>
         <h2>Benefits</h2>
@@ -179,8 +204,13 @@
       </section>
       <section id="process">
         <h2>How it&#8217;s made?</h2>
-        <img src="./images/how-made/made.png" alt="chef is melting the chocolate
-        in a bowl" width: 600px; height: 400px; />
+        <img
+          src="./images/how-made/made.png"
+          alt="chef is melting the chocolate
+        in a bowl"
+          width="600"
+          height="400"
+        />
         <h3>
           Try our chocolates today and discover the perfect balance of flavor
         </h3>
@@ -203,7 +233,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section id="products">
         <h2>Our products</h2>
         <ul>
           <li>
@@ -388,7 +418,7 @@
       </section>
     </main>
     <footer>
-      <h1>Chocolate a delicious cure for a bad day</h1>
+      <strong>Chocolate a delicious cure for a bad day</strong>
       <address>
         <p>Social networks</p>
         <ul>
