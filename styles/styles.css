@@ -418,8 +418,6 @@ margin-bottom: 36px;
     gap: 20px;
 }
 
-.made-img {}
-
 .made-text {
     font-weight: 600;
         font-size: 18px;
@@ -437,6 +435,12 @@ margin-bottom: 36px;
 }
 
 .made-item {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.made-item-text {
         font-size: 14px;
         letter-spacing: -0.02em;
 }
@@ -444,4 +448,11 @@ margin-bottom: 36px;
 .made-list-wrapper {
     padding: 32px;
     background-color: #fff;
+}
+
+.made-icon {
+    border-radius: 100%;
+        fill: #4c4c4c;
+        stroke-width: 1px;
+        stroke: #eceded;
 }
