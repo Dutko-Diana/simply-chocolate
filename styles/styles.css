@@ -214,7 +214,7 @@ border: 1px solid #fff;
             letter-spacing: -0.03em;
             color: #fff;
 
-            transition: background-color 250ms ease-in-out;
+            transition: color 250ms ease-in-out;
 }
 
 .hero-scroll-link:hover {
