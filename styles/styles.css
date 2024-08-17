@@ -432,6 +432,7 @@ margin-bottom: 36px;
         justify-content: flex-start;
         flex-direction: column;
         gap: 24px;
+        padding-left: 16px;
 }
 
 .made-item {
